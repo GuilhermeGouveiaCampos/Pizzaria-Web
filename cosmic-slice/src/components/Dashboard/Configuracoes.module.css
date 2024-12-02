@@ -1,0 +1,115 @@
+.container {
+    padding: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2.2em; /* Maior destaque no título */
+    margin-bottom: 30px; /* Maior espaço abaixo do título */
+    font-weight: bold;
+  }
+  
+  .table {
+    width: 120%; /* Expande a largura da tabela */
+    max-width: 1200px; /* Limita o tamanho máximo para telas maiores */
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Sombra mais forte */
+    border-radius: 10px; /* Arredonda os cantos da tabela */
+    overflow: hidden; /* Garante que o arredondamento apareça */
+  }
+  
+  .table th, .table td {
+    padding: 15px; /* Aumenta o espaço interno */
+    border: 1px solid #ddd;
+    text-align: left;
+    font-size: 1em;
+  }
+  
+  .table th {
+    background-color: #f4f4f4; /* Fundo claro para o cabeçalho */
+    font-weight: bold;
+    text-transform: uppercase; /* Letras maiúsculas no cabeçalho */
+    color: #555;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .table tr:nth-child(odd) {
+    background-color: #fff; /* Fundo branco alternado */
+  }
+  
+  .table tr:hover {
+    background-color: #f0f8ff; /* Cor de fundo ao passar o mouse */
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .actions {
+    margin-top: 30px; /* Maior espaçamento superior */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .actionButton {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 24px; /* Botões maiores */
+    font-size: 1em;
+    font-weight: bold; /* Letras em negrito */
+    color: #fff;
+    background-color: #004080; /* Azul mais escuro */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Animação de escala */
+  }
+  
+  .actionButton:hover {
+    background-color: #0059b3; /* Azul mais brilhante ao passar o mouse */
+    transform: scale(1.05); /* Efeito de "crescer" ao passar o mouse */
+  }
+  
+  .icon {
+    font-size: 1.2em;
+  }
+  
+  @media (max-width: 768px) {
+    /* Responsividade para telas menores */
+    .table {
+      width: 100%; /* Tabela ocupa toda a largura */
+    }
+  
+    .actionButton {
+      padding: 10px 15px; /* Botões menores */
+      font-size: 0.9em;
+    }
+  
+    .title {
+      font-size: 1.8em; /* Título ajustado para telas menores */
+    }
+  }
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table td {
+    padding: 19px;
+    border: 3px solid #ddd;
+  }
+  
+  .table td:first-child {
+    font-family: 'Arial Black', sans-serif;
+    text-transform: uppercase;
+  }
+  
+  .table td:last-child {
+    font-family: Arial, sans-serif;
+  }
+  

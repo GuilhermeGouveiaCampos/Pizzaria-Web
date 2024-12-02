@@ -1,0 +1,102 @@
+.sidebar {
+    width: 250px;
+    background-color: #1a1a3b;
+    height: 100vh; /* Ocupa 100% da altura da tela */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    color: #fff;
+  }
+  
+  .logoSection {
+    text-align: center;
+  }
+  
+  .logo {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .searchContainer {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 15px 0;
+    padding: 5px;
+    background-color: #333;
+    border-radius: 8px;
+  }
+  
+  .searchIcon {
+    color: #aaa;
+    margin-right: 5px;
+  }
+  
+  .searchInput {
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    color: #aaa;
+    padding: 5px;
+  }
+  
+  .nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .navLink {
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    color: #ddd;
+    text-decoration: none;
+    font-size: 1em;
+    transition: background 0.3s;
+  }
+  
+  .navLink:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .icon {
+    margin-right: 10px;
+  }
+  
+  .active {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .subMenu {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .subMenuLink {
+    color: #aaa;
+    padding: 8px 0;
+    text-decoration: none;
+    font-size: 0.9em;
+  }
+  
+  .subMenuLink:hover {
+    color: #fff;
+  }
+  
+  .caret {
+    margin-left: auto;
+  }
+  

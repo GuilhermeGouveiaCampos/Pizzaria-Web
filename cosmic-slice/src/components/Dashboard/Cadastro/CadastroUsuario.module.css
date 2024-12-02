@@ -1,0 +1,108 @@
+.cadastroPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ocupa a altura total da tela */
+    background-color: #f4f4f4; /* Cor de fundo */
+  }
+  
+  .formContainer {
+    width: 80%;
+    max-width: 1000px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .logoSection img {
+    width: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .logoSection h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .inputGroup {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .inputGroup label {
+    font-size: 0.9em;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .inputGroup input {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1em;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .inputGroup input:focus {
+    border-color: #333;
+  }
+  
+  .button {
+    padding: 14px;
+    background-color: #001f54;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #002f74;
+  }
+  
+  .errorMessage, .successMessage {
+    margin-top: 10px;
+    font-size: 0.9em;
+    text-align: center;
+  }
+  
+  .errorMessage {
+    color: red;
+  }
+  
+  .successMessage {
+    color: green;
+  }
+  
+  .eyeIcon {
+    position: absolute;
+    right: 15px;
+    top: 38px;
+    cursor: pointer;
+  }
+  
